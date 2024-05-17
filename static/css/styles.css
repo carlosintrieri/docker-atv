@@ -1,0 +1,527 @@
+* {
+
+    font-family: 'Montserrat'. sans-serif;
+  
+  }
+  .cor-fundo {
+    color: white;
+
+  }
+.centralizar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* Estilização do container */
+.container-js {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Estilização do título */
+.container-js h2 {
+  text-align: center;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* Estilização das mensagens flash */
+.flashes {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: #d9534f;
+}
+
+.flashes li {
+  margin-bottom: 10px;
+}
+
+/* Estilização do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Estilização dos rótulos e inputs */
+form h4 {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #555;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilização do botão de envio */
+form button {
+  padding: 10px;
+  background-color: #5e2129;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #5e2129;
+
+}
+
+.margem {
+
+  display: flex;
+  justify-content: center; 
+  color: white;
+  margin-right: auto;
+}
+.botao {
+  margin-top: 30px;
+
+}
+
+.centro {
+  margin-left: 300px; 
+  margin-bottom: 60px;
+}
+
+
+@media only screen and (min-width: 997px) {
+  .texto {
+      text-align: center; 
+      display: flex;
+      margin-right: 20px;
+  }
+}
+
+.image {
+
+  text-align: center;
+  margin-left: 250px;
+  margin-bottom: 50px;
+
+}
+
+.img-centralizada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.carousel {
+  margin-top: 56px; 
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.text-container {
+  text-align: center;
+  max-width: 80%;
+}
+body {
+    background-color: #5e2129;
+  }
+  
+  .primary-bg-color {
+    background-color: rgb(51, 1, 1);
+  }
+  
+  .secondary-bg-color {
+    background-color: #5e2129;
+  }
+  
+  .navbar-brand { 
+    transition: 0.8s; 
+  }
+  .navbar-brand:hover { 
+    transform: scale(1.1); 
+  }
+  
+  .dropdown-menu {
+    color:rgb(119, 1, 1)
+  }
+  .tamanho {
+    width:80%;
+    display: inline-block;
+  }
+
+  .container div-tamanho {
+    width:50%;
+    height:50%;
+}
+ 
+ #lado {
+margin-left: 0;
+
+  }
+.display-4 {
+
+  margin-top: 40px;
+}
+  .div-fundo {
+
+    display: flex;
+    justify-content: space-between;
+   }
+  
+  /* NAVBAR */
+  #navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+  }
+  
+  #navbar .navbar-nav li {
+    margin-left: 1em;
+  }
+  
+  #navbar a,
+  #navbar button {
+    color: #FFF;
+  }
+  
+  #navbar li {
+    position: relative;
+  }
+  #navbar i {
+  font-size: 20px;
+  }
+  
+  #navbar span {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #EF3636;
+    text-align: center;
+  }
+  
+  #bag-item span {
+    left: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+  
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-brand {
+    text-align: left;
+   }
+  }
+  #navbar-items {
+    justify-content: space-between;
+    margin-left: 120px;
+  }
+  
+  @media (min-width: 768px) {
+    #navbar-items {
+       min-width: 80%;
+       display: flex;
+      }
+    }
+  
+  
+  @media (min-width: 768px) {
+    #search-form {
+        width: 50%;
+        margin: 0;
+  
+    }
+  
+  }
+  
+  @media (max-width: 997px) {
+    p {
+      font-size: 14px; /* Reduza o tamanho da fonte */
+    }
+  }
+  
+  /* BOTTOM NAVBAR */
+  
+  #bottom-navbar-container .container {
+    justify-content: flex-end;
+  }
+  
+  #bottom-navbar-container a {
+    font-weight: 600;
+    color: #FFFFFF;
+  
+  }
+  .navbar-toggler {
+  font-size: 1.Sem;
+  }
+  /*BANNER*/
+  #banners-container {
+    padding: 0;
+  }
+
+  @media (min-width: 768px) {
+    #slider .carousel-item,
+    #slider img {
+    height: 600px;
+  }
+
+  /*MINI BANNERS*/
+  #mini-banners {
+    margin-top: 3em;
+    z-index: 10;
+  }
+
+
+  .carousel-item img {
+    max-width: 60%;
+    max-height: 450px; 
+    display: flex;
+    justify-content: center; 
+    margin: auto;
+  
+}
+
+.ladinho {
+  margin-left: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.centralizar {
+  display: block;
+  margin-left: 22%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#mini-banners .col-12 {
+    z-index: 1;
+    height: 300px;
+    padding: 1.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  @media(min-width: 768px) {
+    .col-12 {
+        max-width: 30%;
+    }
+  }
+  #mini-banners .col-12 h2 {
+    text-transform: uppercase;
+    max-width: 50px;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 1em;
+  }
+  
+  #mini-banner-2 {
+    right: 3em;
+    
+  }
+  #mini-banners .col-12 img { 
+    height: 220px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+  }
+  
+  #mini-banners .col-12 a {
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: .8em;
+    transition: 0.5s;
+  }
+  #mini-banners .col-12 a:hover {
+    color: #FFFFFF;
+   }
+  
+  #mini-banners #mini-banner-1 a:hover {
+    color: #FFFFFF;
+    
+  }
+  
+  #mini-banners #mini-banner-3 a {
+    color: #FFFFFF;
+    
+  }
+  
+  .img-container {
+    width: 70%;
+    padding: 5px;
+    margin-top: 100px;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 10px;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /*GALERIA*/
+  
+  #gallery .image-container {
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    cursor: pointer;
+    transition: .5s;
+    border: 3px solid #FFFFFF;
+  }
+  #gallery .image-container:hover {
+    border-color:#5e2129;
+  }
+
+}
+.wine-list {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+.wine-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+}
+.wine-item:last-child {
+  border-bottom: none;
+}
+.wine-item h4 {
+  margin-top: 0;
+}
+.wine-item p {
+  margin-bottom: 0.5rem;
+}
+
+.menu {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+.menu-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+.menu-item h4 {
+  margin-top: 0;
+}
+
+.centraliza_lista {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 100px;
+}
+
+/* Estilo para o formulário */
+form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background: #5e2129;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background: #5e2129;
+}
+
+/* Estilo para a tabela de usuários */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background: #5e2129;
+    color: white;
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
